@@ -29,7 +29,7 @@ MODULES += modules/pe/pe_utils.c
 
 if CUCKOO_MODULE
 MODULES += modules/cuckoo/cuckoo.c
-MODULES += modules/androguard.c
+MODULES += modules/androguard/androguard.c
 endif
 
 if MAGIC_MODULE
